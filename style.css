@@ -1,0 +1,58 @@
+body
+{
+  padding: 25px;
+  background: url(images/movie.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+#survey-form{
+  display: inline-block;
+  width: 100%;
+  max-width: 650px;
+  background-color: rgba(40, 37, 43, 0.7);
+  overflow: auto;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 20px 0px 20px 0px;
+  font-weight: bold;
+  font-family: 'Monospace', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',sans-serif;
+  font-size: 20px;
+  border-style: ridge;
+  box-shadow: grey;
+}
+
+h1,p{
+  color: whitesmoke;
+  font-family: 'Monospace', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',sans-serif;
+}
+
+
+.textarea {
+  width: 100%;
+  max-width: 600px;
+  height:80px;
+  font-size: 17px;
+}
+#name,#email,#number,#dropdown
+{
+  font-size: 17px;
+  width: 100%;
+  max-width: 600px;
+  height:30px;
+  font-family: 'Monospace', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',sans-serif;
+}
+
+#submit{
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
+  background: rgb(7, 199, 93);
+  border: none;
+  width: 100%;
+  max-width: 600px;
+  color: whitesmoke;
+  font-family: 'Monospace', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+
+}

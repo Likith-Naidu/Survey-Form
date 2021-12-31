@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie survey form </form></title>
+</head>
+<body>
+    <h1 id="title">Movies Survey form </h1>
+    <p id="description">Share your insights with us.</p>
+    <form  id="survey-form">
+        <label id="name-label" for="name">Enter your name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"  required><br><br>
+
+        <label id="email-label" for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label id="number-label" for="number">Enter your age:</label><br>
+        <input type="number" id="number" name="number" min="0" max="100" placeholder="Enter your age"><br><br>
+        
+        <label for="dropdown">Choose a Genre:</label>
+        <select name="Fav Movie Genre" id="dropdown">
+          <option value="Action">Action</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Drama">Drama</option>
+          <option value="Horror">Horror</option>
+          <option value="Thriller">Thriller</option>
+          <option value="Science-Fiction">Science-Fiction</option>
+          <option value="Romance">Romance</option>
+        </select><br><br>
+     
+         <label for="last_movie">How often do you visit the cinema:</label><br>
+          <input type="radio" id="last_movie" name="last_movie" value="2-5 times a month">
+          <label for="last_movie">2-5 times a month</label><br>
+          <input type="radio" id="last_movie" name="last_movie" value="once a month">
+          <label for="last_movie">once a month</label><br>
+          <input type="radio" id="last_movie" name="last_movie" value="once a year">
+          <label for="last_movie">once a year</label><br>
+          <input type="radio" id="last_movie" name="last_movie" value="others">
+         <label for="last_movie">others</label><br><br>
+        
+         <label for="watch_movie">What makes you watch a film:</label><br>
+         <input type="checkbox" id="watch_movie" name="watch_movie" value="Famous director">
+         <label for="watch_movie"> Famous director</label><br>
+         <input type="checkbox" id="watch_movie" name="watch_movie" value="Famous cast">
+         <label for="watch_movie"> Famous cast</label><br>
+         <input type="checkbox" id="watch_movie" name="watch_movie" value="Storyline">
+         <label for="watch_movie"> Storyline</label><br>
+         <input type="checkbox" id="watch_movie" name="watch_movie" value="genre">
+         <label for="watch_movie"> genre</label><br>
+         <input type="checkbox" id="watch_movie" name="watch_movie" value="Good trailer">
+         <label for="watch_movie"> Good trailer</label><br><br>
+
+         
+        <textarea class="textarea" placeholder="Tell us about your most recent movie..."></textarea><br><br>
+
+        <input type="submit" id="submit">
+         
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
